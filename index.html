@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cnt1">
+      <h1>Enter the text to analyze below</h1>
+      <b>
+        <textarea name="" id="text1" cols="150" rows="15" onkeydown="textChange()">Enter text here</textarea>
+      </b>
+      <br>
+      <button class="btn" id="btn1" onclick="forUpper()">Covert To Uppercase</button>
+      <button class="btn" id="btn2" onclick="forLower()">Covert To Lowercase</button>
+      <button class="btn" id="btn3">Copy Text</button>
+
+      <h2>Your text summary</h2>
+      <p><span id="sp1">3</span> Words,<span id="sp2">15</span> Characters</p>
+
+      <h2>Preview</h2>
+      <p id="para">Enter text here</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
